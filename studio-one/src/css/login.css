@@ -1,0 +1,98 @@
+@media only screen and (min-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .login {
+    display: flex;
+    align-items: stretch;
+    background: #e5e5e5;
+  }
+
+  .login .fundo {
+    width: 50%;
+    height: 100vh;
+    background-image: url('../images/index.svg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #4e46b4;
+    mix-blend-mode: normal;
+    opacity: 0.52;
+  }
+
+  .login .inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-direction: column;
+    background: #e5e5e5;
+  }
+
+  .login .inputs .input {
+    display: flex;
+    width: 288px;
+    height: 56px;
+    padding: 18px, 24px, 18px, 24px;
+    border-radius: 18.02px;
+    font-size: 14px;
+    padding: 0 0 0 10px;
+    flex-direction: column;
+  }
+
+  .login .inputs .input .continuar {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12.0138px 24.0277px;
+    position: absolute;
+    width: 205.74px;
+    height: 60.07px;
+    left: 1107.26px;
+    top: 842.83px;
+    background: rgba(0, 0, 0, 0.125);
+    border-radius: 12.0138px;
+  }
+
+  .login .inputs .criarConta {
+    position: absolute;
+    width: 253.79px;
+    left: 831px;
+    top: 13.09%;
+    bottom: 84.41%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #999ca0;
+  }
+
+  .login .inputs .email {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 18.0208px 24.0277px;
+    position: static;
+    height: 84px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 84px / 2);
+    border-radius: 18.0208px;
+  }
+
+  .login .inputs .password {
+    flex-direction: row;
+    align-items: center;
+    padding: 18.0208px 24.0277px;
+    position: static;
+    width: 474px;
+    height: 84px;
+    left: calc(50% - 474px / 2);
+    top: calc(50% - 84px / 2);
+    border-radius: 18.0208px;
+  }
+}

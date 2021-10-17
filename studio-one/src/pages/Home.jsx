@@ -1,0 +1,33 @@
+import React from 'react';
+
+const Logo = () => {
+    return(
+    <View style={styles.inner_content}>
+        <Text style={styles.inicio_titulo} >Studio</Text>
+        <Text style={styles.inicio_sub_titulo} >D E L I V E R Y</Text>
+    </View>
+    )
+
+} 
+const styles = StyleSheet.create({
+    inner_content:{
+        display:'flex',
+        justifyContent:'center',
+        alignItems:'flex-end',
+        height:'13%',
+        
+    },
+    inicio_titulo:{
+        fontSize:100,
+        fontWeight:"400",
+        color:'#fff',
+        fontFamily:"MrsSheppards-Regular",
+        
+    },
+    inicio_sub_titulo:{
+        fontSize:20,
+        color:'#fff',
+        fontFamily:"Poppins-Regular",  
+    }
+})
+export default Logo
