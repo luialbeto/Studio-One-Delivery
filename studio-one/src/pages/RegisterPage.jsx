@@ -11,24 +11,25 @@ import '../css/register.css';
 
 export default function RegisterPage(props) {
   return (
-    <div className="allRegistro">
+    <div className="allRegister">
+      <div className="fundo"></div>
       <div className="registerHeader">
-        <div className="leftMenu">
+        <div className="menu">
           <h2 className="title">Criar uma conta</h2>
         </div>
-		<div className="temUmaConta">
-			<p>Já tem uma conta?</p>
-			<span>Faça login</span>
-		</div>
+        <div className="temUmaConta">
+          <p>Já tem uma conta?</p>
+          <span>Faça login</span>
+        </div>
       </div>
-      <div className="bodyRegistro">
+      <div className="register">
         <RegisterName />
-		<RegisterDataDeNascimento />
-		<RegisterCPF />
-		<RegisterCelular />
+        <RegisterDataDeNascimento />
+        <RegisterCPF />
+        <RegisterCelular />
         <RegisterEmail />
         <RegisterSenha />
-		<RegisterRepetirSenha />
+        <RegisterRepetirSenha />
         <RegisterButton props={props} />
       </div>
     </div>

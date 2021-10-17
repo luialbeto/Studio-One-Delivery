@@ -10,6 +10,7 @@ export default function RegisterName() {
         <input
           type="date"
           id="dataDeNascimento"
+		  placeholder="Data de nascimento"
           onChange={(event) => {
             setNameValid(validateName(event.target.value));
             setUserData({

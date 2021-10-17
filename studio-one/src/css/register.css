@@ -1,0 +1,31 @@
+@media only screen and (min-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .allRegister {
+    display: flex;
+    background: #e5e5e5;
+  }
+
+  .allRegister .fundo {
+    width: 50%;
+    height: 100vh;
+    background-image: url('../images/index.svg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #4e46b4;
+    mix-blend-mode: normal;
+    opacity: 0.52;
+  }
+
+  .allRegister .registerHeader {
+    align-items: center;
+  }
+
+  .allRegister .register {
+    flex-direction: column;
+  }
+}
