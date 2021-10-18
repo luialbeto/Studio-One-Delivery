@@ -19,18 +19,36 @@ export default function RegisterPage(props) {
         </div>
         <div className="temUmaConta">
           <p>Já tem uma conta?</p>
-          <span>Faça login</span>
+          <a href="">Faça login</a>
         </div>
       </div>
       <div className="register">
-        <RegisterName />
-        <RegisterDataDeNascimento />
-        <RegisterCPF />
-        <RegisterCelular />
-        <RegisterEmail />
-        <RegisterSenha />
-        <RegisterRepetirSenha />
-        <RegisterButton props={props} />
+        <div className="registerName">
+          <RegisterName />
+        </div>
+        <div className="registerDataCPF">
+          <div className="dataDeNascimento">
+            <RegisterDataDeNascimento />
+          </div>
+          <div className="CPF">
+            <RegisterCPF />
+          </div>
+        </div>
+        <div className="celular">
+          <RegisterCelular />
+        </div>
+        <div className="email">
+          <RegisterEmail />
+        </div>
+        <div className="senha">
+          <RegisterSenha />
+        </div>
+        <div className="repetirSenha">
+          <RegisterRepetirSenha />
+        </div>
+        <div className="button">
+          <RegisterButton props={props} />
+        </div>
       </div>
     </div>
   );
